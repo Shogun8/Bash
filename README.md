@@ -1,7 +1,7 @@
 Bash
 ====
 
-# My collection of bash scripts that I use to make common tasks in the shell a littl easier
+My collection of bash scripts that I use to make common tasks in the shell a littl easier
 
 ## fixS.SH
 This porgram is an easy way to delete old IP addresses and cruft from the known_hosts file after a failed connection due to a mac addres change
