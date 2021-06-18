@@ -1,8 +1,6 @@
 #!/bin/bash
 if [ ! -n "$BASH" ] ;then echo Please run this script $0 with bash; exit 1; fi
 
-## How to set this up; make an alias that points to this file
-## alias regenssh=~/scripts/regenS.SH
 ## To use, run this command with or without an IP address as an argument 
 ## i.e., regenS.SH 8.8.8.8
 ## 
