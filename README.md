@@ -5,17 +5,17 @@ My collection of bash scripts that I use to make common tasks in the shell a lit
 
 ----------------
 ### regenS.SH
-This porgram is an easy way to delete old IP addresses and cruft from the known_hosts file after a failed connection due to a mac address change. This progam can be used either with an IP addrress as an argument or without any argumants, in which case in will check your current shells history for the last IP addressed you used to try to connect the IP.   
+This porgram is an easy way to delete old IP addresses and cruft from the known_hosts file after a failed connection (probably due due to a mac address change, or an IP address change). This progam can be used either with an IP addrress as an argument or without any argumants at all, in which case it will check your current shell's history for the IP addressed used in the most recent command, and remove that address frot he known_hosts file.   
 
-To set this up; make an alias that points to this file
+To configure this for easy usage, just make an alias that points to this file
 ```bash
 alias regenssh=~/ShellScripts/regenS.SH
 ```
-To use this script, call it with or without an IP address as an argument 
+Then to use this script, call it with or without an IP address as an argument 
 ```bash
 regenssh 8.8.8.8
 ```
-or just
+or simply
 ```bash
 regenssh
 ```
