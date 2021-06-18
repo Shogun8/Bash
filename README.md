@@ -8,7 +8,7 @@ This porgram is an easy way to delete old IP addresses and cruft from the known_
 
 To set this up; make an alias that points to this file
 ```bash
-alias regenssh=~/scripts/regenS.SH
+alias regenssh=~/ShellScripts/regenS.SH
 ```
 To use this script, call it with or without an IP address as an argument 
 ```bash
