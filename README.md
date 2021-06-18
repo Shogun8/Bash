@@ -12,9 +12,9 @@ alias regenssh=~/scripts/regenS.SH
 ```
 To use this script, call it with or without an IP address as an argument 
 ```bash
-regenS.SH 8.8.8.8
+regenssh 8.8.8.8
 ```
-or
+or just
 ```bash
-regenS.sh
+regenssh
 ```
